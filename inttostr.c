@@ -1,0 +1,23 @@
+#include<stdio.h>
+void main()
+{
+	int i;
+	printf("enter the value\n");
+	scanf("%d",&i);
+	
+	char arr[20][10]={"zero","one","two","three","four","five","six","seven","eight","nine","ten","eleven","twelve","thirteen","fourteen","fifteen","sixteen","sevente	  en","eighteen","nineteen"};	
+	char arr1[10][10]={"","","twenty", "thirty","forty","fifty","sixty","seventy","eighty","ninety","hundred"};
+	int num[2],j=0;
+	
+
+	while(i!=0)
+	{
+		num[j++]=i%10;
+		i/=10;
+	}
+	printf("%s %s",arr1[num[1]],arr[num[0]]);
+}
+	
+
+
+
