@@ -17,10 +17,8 @@ void main()
 	}
 	if(num[1]==1)
 	printf("%s\n",arr[k]);
+	else if(num[0]==0)
+	printf("%s\n",arr1[num[1]]);	
 	else
 	printf("%s %s",arr1[num[1]],arr[num[0]]);
 }
-	
-
-
-
