@@ -8,7 +8,6 @@ void main()
 	char arr[20][10]={"zero","one","two","three","four","five","six","seven","eight","nine","ten","eleven","twelve","thirteen","fourteen","fifteen","sixteen","sevente	  en","eighteen","nineteen"};	
 	char arr1[10][10]={"","","twenty", "thirty","forty","fifty","sixty","seventy","eighty","ninety","hundred"};
 	int num[2],j=0;
-	
 
 	while(i!=0)
 	{
@@ -18,7 +17,8 @@ void main()
 	if(num[1]==1)
 	printf("%s\n",arr[k]);
 	else if(num[0]==0)
-	printf("%s\n",arr1[num[1]]);	
+	printf("%s\n",arr1[num[1]]);
 	else
-	printf("%s %s",arr1[num[1]],arr[num[0]]);
+	printf("%s %s\n",arr1[num[1]],arr[num[0]]);
+
 }
